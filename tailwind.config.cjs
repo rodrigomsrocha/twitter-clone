@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     screens: {
       md: "1022px",
-      sm: "500px",
     },
     colors: {
       primary: "#000",
