@@ -3,7 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      md: "1022px",
+      sm: "500px",
+      md: "988px",
+      lg: "1265px",
     },
     colors: {
       primary: "#000",
@@ -18,7 +20,14 @@ module.exports = {
       "twitter-dark-hover": "#011017",
       "twitter-light-hover": "#2c8ed6",
     },
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        layout: "275px minmax(601px, 1fr) minmax(399px, 1fr)",
+        lgLayout: "88px minmax(601px, 1fr) minmax(399px, 1fr)",
+        mdLayout: "88px minmax(601px, 1fr)",
+        smLayout: "1fr",
+      },
+    },
   },
   plugins: [],
 };
