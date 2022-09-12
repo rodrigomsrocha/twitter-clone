@@ -15,7 +15,7 @@ import { MenuItem } from "./components/MenuItem";
 
 export function MenuBar() {
   return (
-    <aside className="hidden sm:flex sm:justify-between sm:flex-col sm:min-h-screen sm:px-5 sm:pt-2 sm:pb-5">
+    <aside className="hidden sm:sticky sm:top-0 sm:left-0 sm:flex sm:justify-between sm:flex-col sm:max-h-screen sm:px-5 sm:pt-2 sm:pb-5">
       <div className="flex flex-col items-center lg:items-start">
         <a
           href="/"

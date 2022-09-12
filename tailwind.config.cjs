@@ -21,11 +21,9 @@ module.exports = {
       "twitter-light-hover": "#2c8ed6",
     },
     extend: {
-      gridTemplateColumns: {
-        layout: "275px minmax(601px, 1fr) minmax(399px, 1fr)",
-        lgLayout: "88px minmax(601px, 1fr) minmax(399px, 1fr)",
-        mdLayout: "88px minmax(601px, 1fr)",
-        smLayout: "1fr",
+      spacing: {
+        main: "601px",
+        sidebar: "399px",
       },
     },
   },
