@@ -1,5 +1,6 @@
 import { Banner } from "./components/Banner";
 import { Header } from "./components/Header";
+import { ProfileData } from "./components/ProfileData";
 
 export function Main() {
   return (
@@ -7,6 +8,7 @@ export function Main() {
       <Header />
       <main>
         <Banner />
+        <ProfileData />
       </main>
     </div>
   );
